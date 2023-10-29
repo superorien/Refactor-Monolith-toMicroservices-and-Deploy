@@ -22,16 +22,16 @@ jobs:
             echo "--------- The images is Building ------------"
  
             docker build -t udagram-api-feed ./udagram-api-feed
-            docker tag udagram-api-feed oriental/udagram-api-feed:v1
+            docker tag udagram-api-feed superorien/udagram-api-feed:v1
  
             docker build -t udagram-api-user ./udagram-api-user
-            docker tag udagram-api-user oriental/udagram-api-user:v1
+            docker tag udagram-api-user superorien/udagram-api-user:v1
  
             docker build -t udagram-frontend ./udagram-frontend
-            docker tag udagram-frontend oriental/udagram-frontend:v1
+            docker tag udagram-frontend superorien/udagram-frontend:v1
  
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
-            docker tag udagram-reverseproxy oriental/udagram-reverseproxy:v1
+            docker tag udagram-reverseproxy superorien/udagram-reverseproxy:v1
  
             echo "-------- All images succesfully built----------"
             echo "-------- Login in to docker hub----------------"
