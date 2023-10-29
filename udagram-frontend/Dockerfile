@@ -1,3 +1,4 @@
+ENV NODE_OPTIONS=--openssl-legacy-provider
 ### Build
 FROM beevelop/ionic:latest AS ionic
 ## Create app directory
