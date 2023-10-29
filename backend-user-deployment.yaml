@@ -18,12 +18,12 @@ spec:
       - image: superorien/udagram-api-user:v1
         name: backend-user 
         ports:
-        - containerPort: 80
+        - containerPort: 80 
         resources:
           requests:
             cpu: "250m"
           limits:
-            cpu: "500m" 
+            cpu: "500m"
         env:
         - name: POSTGRES_USERNAME
           valueFrom:
@@ -87,10 +87,3 @@ spec:
         secret:
           secretName: aws-secret
       restartPolicy: Always
-      resources:
-         requests:
-           memory: "64Mi"
-           cpu: "250m"
-           limits:
-           memory: "1024Mi"
-           cpu: "500m"
