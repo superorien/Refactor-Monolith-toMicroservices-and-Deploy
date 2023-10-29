@@ -5,10 +5,10 @@ metadata:
   namespace: default
 data:
   URL: "http://localhost:8100"
-  POSTGRES_HOST: "dev-project3.crrfh1w4aa6b.us-west-2.rds.amazonaws.com"
+  POSTGRES_HOST: "udacity-pj3.cxgiwmtxyljd.us-east-1.rds.amazonaws.com"
   POSTGRES_DB: "postgres"
-  AWS_BUCKET: "dev-project4"
-  AWS_REGION: "us-west-2"
+  AWS_BUCKET: "udacity-pj3"
+  AWS_REGION: "us-east-1"
   AWS_PROFILE: "default"
   JWT_SECRET:  "testing"
 
